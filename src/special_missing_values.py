@@ -8,7 +8,8 @@ def special_missing_values():
     pass
 
 def main():
-    special_missing_values()
+    df = special_missing_values()
+    print(df)
 
 if __name__ == "__main__":
     main()
